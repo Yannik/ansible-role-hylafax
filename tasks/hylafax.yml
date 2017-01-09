@@ -1,0 +1,6 @@
+- name: Install required packages
+  apt: pkg={{ item }} state=present
+  with_items:
+    - hylafax-server
+    - hylafax-client
+
