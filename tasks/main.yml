@@ -1,2 +1,2 @@
-- include: hylafax.yml
+- import_tasks: hylafax.yml
   tags: hylafax.yml
