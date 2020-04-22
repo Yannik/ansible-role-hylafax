@@ -4,3 +4,7 @@
     - hylafax-server
     - hylafax-client
 
+- name: Remove /etc/cron.monthly/hylafax to stop monthly stats emails
+  file:
+    path: /etc/cron.monthly/hylafax
+    state: absent
